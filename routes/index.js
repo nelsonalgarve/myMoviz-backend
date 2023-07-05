@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 const fetch = require('node-fetch');
-const API_KEY = '4bfe5ec9648a52373072047056bc05ce';
+const API_KEY = process.env.API_KEY
 
 // const url = 'https://api.themoviedb.org/3/discover/movie?include_adult=false&include_video=false&language=en-US&page=1&sort_by=popularity.desc';
 // const options = {
